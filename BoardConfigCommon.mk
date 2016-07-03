@@ -51,6 +51,12 @@ BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x02008000 -
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
 TARGET_KERNEL_SOURCE := kernel/htc/msm8974
 
+# Build optimizations
+CLANG_O3 := true
+KRAIT_TUNINGS := true
+GRAPHITE_OPTS := true
+ENABLE_GCCONLY := true
+
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
 
