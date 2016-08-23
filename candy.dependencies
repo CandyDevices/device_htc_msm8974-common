@@ -1,10 +1,20 @@
 [
   {
-    "repository": "cyanogenmod/android_kernel_htc_msm8974",
-    "target_path": "kernel/htc/msm8974"
+    "repository": "android_kernel_htc_msm8974",
+    "target_path": "kernel/htc/msm8974",
+    "remote": "cm",
+    "branch": "cm-13.0"
   },
   {
-    "repository": "cyanogenmod/android_hardware_sony_thermanager",
-    "target_path": "hardware/sony/thermanager"
+    "repository": "android_hardware_sony_thermanager",
+    "target_path": "hardware/sony/thermanager",
+    "remote": "cm",
+    "branch": "cm-13.0"
+  },
+  {
+    "repository": "themuppets/proprietary_vendor_htc",
+    "target_path": "vendor/htc",
+    "remote": "github",
+    "branch": "cm-13.0"
   }
 ]
